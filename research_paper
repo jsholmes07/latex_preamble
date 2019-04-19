@@ -1,0 +1,45 @@
+\documentclass[12 pt]{article}
+\usepackage{titlesec}
+\titleformat{\section}[block]{\color{black}\Large\bfseries\filcenter}{}{1em}{}
+	\titleformat{\subsection}[block]{\color{black}\Large\it}{}{1em}{}
+\usepackage{times}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{titling}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{subcaption}
+\usepackage{rotating}
+\usepackage[letterpaper, portrait, margin=1 in]{geometry}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\usepackage{csquotes}
+\usepackage{apacite}
+\usepackage{url}
+\usepackage[round]{natbib}
+\usepackage{listings}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\urlstyle{same}
+\usepackage{multirow}
+\pagestyle{fancy}
+\rhead{Holmes \thepage}
+\cfoot{}
+\lhead{}
+\title{Title}
+\author{Joshua S. Holmes}
+\date{}
+\begin{document}
+\maketitle
+\doublespacing
+
+%% Body of Paper%%
+
+\pagebreak
+\singlespace
+\bibliography{filename}
+\bibliographystyle{apacite}
+\end{document}
+
